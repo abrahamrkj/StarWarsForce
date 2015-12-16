@@ -304,6 +304,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 						if (coords[0]) {
 							var coord = coords[0];
 							
+							console.log(coord);
 							/* Rescale coordinates from detector to video coordinate space: */
 							coord[0] *= video.videoWidth / detector.canvas.width;
 							coord[1] *= video.videoHeight / detector.canvas.height;
